@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #000;
+
+}
+
+header {
+    width: 100%;
+    height: 73px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>h1 {
+    letter-spacing: 0px;
+    font: normal normal medium 50px/59px 'Raleway', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.hero-section {
+    width: 100%;
+    height: 727px;
+    background-image: url(../img/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+}
+
+.centro-iguana {
+    width: 100%;
+    height: 348px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 106px;
+}
+
+.centro-iguana>p {
+    width: 475px;
+    font: normal normal 300 16px/19px 'Raleway', sans-serif;
+    letter-spacing: 0px;
+}
+
+.centro-iguana>img {
+    width: 399px;
+    height: 237px;
+}
+
+section {
+    width: 100%;
+    height: 348px;
+    background-color: #1e1a13;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.box-icon {
+    text-align: center;
+}
+
+
+.box-icon>i {
+    margin-bottom: 23px;
+}
+
+/*imagenes*/
+
+.img-section {
+    text-align: center;
+    padding: 75px 0;
+}
+
+.description-img2 {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.description-img2>img {
+    width: 90%;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #1e1a13;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+footer > p {
+    font: normal normal 300 20px/24px 'Raleway', sans-serif;
+}
+
+
+footer > a {
+    text-decoration: none;
+    color: white;
+}
